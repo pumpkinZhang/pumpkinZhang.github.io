@@ -8,7 +8,7 @@
 </head>
  
 <body>
-<iframe id="voiceF" src="http://dict.youdao.com/dictvoice?type=2&audio=forklift"></iframe><br />
+<iframe id="voiceF" src="https://dict.youdao.com/dictvoice?type=2&audio=forklift"></iframe><br />
 
 <input id="userIn" value="********" disabled><br />
 <input type="text" id="textInput">
@@ -62,7 +62,7 @@
       w = voc[Math.floor(Math.random() * voc.length)];
       hw = "*".repeat(w.length);
 
-      document.getElementById("voiceF").src = "http://dict.youdao.com/dictvoice?type=2&audio=" + w;
+      document.getElementById("voiceF").src = "https://dict.youdao.com/dictvoice?type=2&audio=" + w;
       document.getElementById("answer").src = "https://dict.youdao.com/result?lang=en&word=" + w;
       document.getElementById("userIn").value = hw;
    }
